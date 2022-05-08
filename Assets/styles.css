@@ -16,6 +16,8 @@ body {
     font-family: "Source sans Pro", sans-serif;
     background-color:azure;
 }
+
+/* Start of header styles */
 .header{
     background-color: aquamarine;
 }
@@ -40,7 +42,7 @@ body {
 }
 
 .nav-link:hover {
-    border-bottom: 0.2rem solid var (--ash-grey)
+    border-bottom: 0.2rem solid var (--ash-grey);
     box-shadow: 0 0 1rem 0.5rem var (--alizarin-crimson);
     background-color: var(--alizarin-crimson);
 }
