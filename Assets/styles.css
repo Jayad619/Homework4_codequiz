@@ -106,7 +106,7 @@ body {
     letter-spacing: 0.6rem;
     padding: 2rem 1rem;
     text-align: center;
-    color: var(--ash-grey);
+    color: var(orange);
     box-shadow: 0rem 0rem 0.7rem 0.7rem rgba(var(--ash-grey-rgb), 0.3);
     /* position: relative; */
   }
@@ -136,8 +136,8 @@ body {
     border-radius: 0.4rem;
     min-width: 20rem;
     text-transform: uppercase;
-    background-color: var(--carnelian);
-    color: var(--ash-grey);
+    background-color: var(white);
+    color: var(green);
   }
   
   .btn:hover {
@@ -148,6 +148,14 @@ body {
   
   /* end of button styles */
 
+  @media screen and (max-width: 768px) {
+      .main {
+          margin: 0 1rem;
+      }
+      .content-section {
+          margin: 2rem 0.75rem;
+      }
+  }
 
 
 
