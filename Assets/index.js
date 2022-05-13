@@ -12,16 +12,19 @@ const renderQuestion = () => {
 // function to remove banner from page
 const removeBanner = () => {
     console.log("remove banner")
-}
+    bannerSection.remove();
+};
+
 //declare event handler function for start buttonclick
 const handleStartButtonClick = (event) => {
   console.log("Start button clicked");
-
   // remove banner section
 removeBanner();
   //render the qs
 renderQuestion();
-};
+}
+
+  
 
 // add event listener to start button
 startButton.addEventListener("click",handleStartButtonClick);
