@@ -4,6 +4,9 @@ const startButton = document.getElementById("start-btn");
 //target banner section
 const bannerSection = document.getElementById("banner")
 
+//target main element
+const mainElement = document.getElementById("main")
+
 // function to render question to page
 const renderQuestion = () => {
     console.log("render question")
